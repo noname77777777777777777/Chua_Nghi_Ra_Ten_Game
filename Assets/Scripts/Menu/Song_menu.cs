@@ -21,21 +21,11 @@ public class Song_menu : MonoBehaviour
         {
              playsong.clip = _listsong[song_other];
              playsong.Play();
-             if (song_other != 0)
-             {
-                 Debug.Log("name : " + _listsong[song_other].name);
-             }
              song_other++;   
          }
         else
          {
              song_other = 0;
         }
-    }
-        
-
-    public void Start()
-    {
-        playsongnext();
     }
 }

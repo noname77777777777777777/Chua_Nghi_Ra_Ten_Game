@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a227ca391bad19a49820f3e0e0ad21c1, type: 3}
+    - {fileID: 2800000, guid: 798b38751fd5a564b8cc7e979d697189, type: 3}
+    - {fileID: 2800000, guid: 05f8c2f954d33ed43b6c5cfce0f1546d, type: 3}
+    - {fileID: 2800000, guid: 630dedc0f310f7e41b9b2128a9d7fa88, type: 3}
+    - {fileID: 2800000, guid: 18479fc125b026a43bd258389bc45671, type: 3}
+    - {fileID: 2800000, guid: c1ed47af6441e454b88dcd25952150e3, type: 3}
+    - {fileID: 2800000, guid: afb8dbf751e56c947a079701cd02328a, type: 3}
+    - {fileID: 2800000, guid: a3914e8e236127944a0fcbd7af6f43d5, type: 3}
+    - {fileID: 2800000, guid: 0dd9527010e7944469301627b50e6cbc, type: 3}
+    - {fileID: 2800000, guid: 7a626d75c34dd1241bc36fbdd24e8c5d, type: 3}
+    - {fileID: 2800000, guid: 100992b88633e8942abb4882a683d684, type: 3}
+    - {fileID: 2800000, guid: 61d60909b78343f4797a23f7632ee324, type: 3}
+    - {fileID: 2800000, guid: 81ed07704e329b240ab2467135eb0dec, type: 3}
+    - {fileID: 2800000, guid: 7b3f8bc542a721245bd49196a4fa6953, type: 3}
+    - {fileID: 2800000, guid: c8f7437006f9e9f41bc490fdbae18bf0, type: 3}
+    - {fileID: 2800000, guid: 81cf508fe21b5d54e8a3fd60ab4eefc5, type: 3}
+    - {fileID: 2800000, guid: bf7241d294fd1024187bd9298163ecc4, type: 3}
+    - {fileID: 2800000, guid: 7cb6a2ccf4f670740b7356c9368ae086, type: 3}
+    - {fileID: 2800000, guid: de25978a91a65304c95deb4ebc6d13db, type: 3}
+    - {fileID: 2800000, guid: 05ddf54cb0b5616448a32ce4c545963b, type: 3}
+    - {fileID: 2800000, guid: 47ffc856984eaa647b3a8bcde1cc0f13, type: 3}
+    - {fileID: 2800000, guid: 6d685dff270c0e14580071326a526d2b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0dd9527010e7944469301627b50e6cbc, type: 3}
+  - {fileID: 21300000, guid: c8f7437006f9e9f41bc490fdbae18bf0, type: 3}
+  - {fileID: 21300000, guid: 81ed07704e329b240ab2467135eb0dec, type: 3}
+  - {fileID: 21300000, guid: 630dedc0f310f7e41b9b2128a9d7fa88, type: 3}
+  - {fileID: 21300000, guid: 18479fc125b026a43bd258389bc45671, type: 3}
+  - {fileID: 21300000, guid: bf7241d294fd1024187bd9298163ecc4, type: 3}
+  - {fileID: 21300000, guid: 798b38751fd5a564b8cc7e979d697189, type: 3}
+  - {fileID: 21300000, guid: 7a626d75c34dd1241bc36fbdd24e8c5d, type: 3}
+  - {fileID: 21300000, guid: 7b3f8bc542a721245bd49196a4fa6953, type: 3}
+  - {fileID: 21300000, guid: 47ffc856984eaa647b3a8bcde1cc0f13, type: 3}
+  - {fileID: 21300000, guid: afb8dbf751e56c947a079701cd02328a, type: 3}
+  - {fileID: 21300000, guid: 100992b88633e8942abb4882a683d684, type: 3}
+  - {fileID: 21300000, guid: 61d60909b78343f4797a23f7632ee324, type: 3}
+  - {fileID: 21300000, guid: a227ca391bad19a49820f3e0e0ad21c1, type: 3}
+  - {fileID: 21300000, guid: 05f8c2f954d33ed43b6c5cfce0f1546d, type: 3}
+  - {fileID: 21300000, guid: de25978a91a65304c95deb4ebc6d13db, type: 3}
+  - {fileID: 21300000, guid: 05ddf54cb0b5616448a32ce4c545963b, type: 3}
+  - {fileID: 21300000, guid: 7cb6a2ccf4f670740b7356c9368ae086, type: 3}
+  - {fileID: 21300000, guid: a3914e8e236127944a0fcbd7af6f43d5, type: 3}
+  - {fileID: 21300000, guid: 81cf508fe21b5d54e8a3fd60ab4eefc5, type: 3}
+  - {fileID: 21300000, guid: c1ed47af6441e454b88dcd25952150e3, type: 3}
+  - {fileID: 21300000, guid: 6d685dff270c0e14580071326a526d2b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - EXP_0058_bg-popup
+  - EXP_0026_icon-money-1
+  - EXP_0009_button-puple
+  - EXP_0044_icon-sound
+  - EXP_0045_setting-off
+  - EXP_0028_icon-money-3
+  - EXP_0040_icon-rate
+  - EXP_0047_tab-setting
+  - EXP_0010_button-green
+  - EXP_0034_daily-bg-3
+  - EXP_0049_button-close
+  - EXP_0043_icon-music
+  - EXP_0041_icon-enemy
+  - EXP_0000_settings
+  - EXP_0042_icon-vib
+  - EXP_0032_daily-bg-1
+  - EXP_0033_daily-bg-2
+  - EXP_0031_icon-money-4
+  - EXP_0061_deco
+  - EXP_0027_icon-money-2
+  - EXP_0046_setting-on
+  - EXP_0035_daily-bg-4
+  m_RenderDataMap: {}
+  m_Tag: Settings
+  m_IsVariant: 0
