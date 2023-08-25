@@ -781,8 +781,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2596897272435049942, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4361120265556843572, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 461907537}
+    - target: {fileID: 4361120265556843572, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: Coin_UI
+      value: 
+      objectReference: {fileID: 1219617241}
     - target: {fileID: 6707586896501066239, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -867,8 +875,66 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 461907536}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddCoin_Dailyreward
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DailylogingManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106841673031108095, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+--- !u!1 &461907534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3170737734970465424, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+  m_PrefabInstance: {fileID: 402989026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &461907536 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4361120265556843572, guid: 020a5a79c39da7442b0d1104dc41d1e2, type: 3}
+  m_PrefabInstance: {fileID: 402989026}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461907534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59aac5fcc8d5f2a488bc9c6066c957e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &461907537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461907534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298089a897b8fd149991cc25da8af776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory:
+    coin: 0
 --- !u!1 &469246676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1569,7 +1635,6 @@ GameObject:
   - component: {fileID: 1696976615}
   - component: {fileID: 1696976618}
   - component: {fileID: 1696976619}
-  - component: {fileID: 1696976620}
   m_Layer: 5
   m_Name: Backgrounds
   m_TagString: Untagged
@@ -1844,21 +1909,7 @@ MonoBehaviour:
   newcolor: '#9D8484'
   oddcolor: '#FFFFFF'
   Dialog: {fileID: 1916135778}
-  isClick: 0
---- !u!114 &1696976620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696976609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59aac5fcc8d5f2a488bc9c6066c957e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DialyReward: {fileID: 0}
-  Coin_UI: {fileID: 0}
+  isClick: 1
 --- !u!1 &1774922426
 GameObject:
   m_ObjectHideFlags: 0
