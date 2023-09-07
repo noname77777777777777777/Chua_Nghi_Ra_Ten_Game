@@ -41,7 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Menu\Spaceship_move.cs" />
+     <Compile Include="Assets\Scripts\Menu\Menu\Spaceship_move.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\GPT_PLUGIN\AI_commandsettings.cs" />
@@ -51,11 +51,11 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-     <Compile Include="Assets\Scripts\Menu\SpriteController.cs" />
+     <Compile Include="Assets\Scripts\Menu\Sprites\SpriteController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-     <Compile Include="Assets\Scripts\Menu\Build.cs" />
+     <Compile Include="Assets\Scripts\Menu\UnityService\Build.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -65,30 +65,30 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-     <Compile Include="Assets\Scripts\Menu\CloseObject.cs" />
+     <Compile Include="Assets\Scripts\Menu\UnityService\CloseObject.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-     <Compile Include="Assets\Scripts\Menu\Settings_Loading.cs" />
-     <Compile Include="Assets\Scripts\Menu\Song_menu.cs" />
+     <Compile Include="Assets\Scripts\Menu\Menu\Settings_Loading.cs" />
+     <Compile Include="Assets\Scripts\Menu\AudioService\Song_menu.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\Menu\Data\DataServiceManager.cs" />
-     <Compile Include="Assets\Scripts\Menu\Many_SpriteController.cs" />
+     <Compile Include="Assets\Scripts\Menu\Sprites\Many_SpriteController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-     <Compile Include="Assets\Scripts\Menu\DailylogingManager.cs" />
+     <Compile Include="Assets\Scripts\Menu\Menu\DailylogingManager.cs" />
      <Compile Include="Assets\Scripts\GPT_PLUGIN\OpenAIUtil.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-     <Compile Include="Assets\Scripts\Menu\UnityService.cs" />
-     <Compile Include="Assets\Scripts\Menu\ButtonLoadSence.cs" />
+     <Compile Include="Assets\Scripts\Menu\UnityService\UnityService.cs" />
+     <Compile Include="Assets\Scripts\Menu\Menu\ButtonLoadSence.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\Scripts\Menu\AudioVisualizer.cs" />
+     <Compile Include="Assets\Scripts\Menu\AudioService\AudioVisualizer.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Anim" />
@@ -99,6 +99,7 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Asset\Music" />
      <Folder Include="Assets\Asset\Menu\DialogItem" />
+     <Folder Include="Assets\Scripts\Menu\AudioService" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <Folder Include="Assets\Scenes" />
@@ -107,6 +108,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Scripts\Menu\UnityService" />
      <Folder Include="Assets\Asset\Character" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Asset\Menu" />
@@ -123,6 +125,7 @@
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Materials" />
      <Folder Include="Assets\Scripts\Menu\Data" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Scripts\Menu\Sprites" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\Asset\BackGrouds" />
@@ -142,6 +145,7 @@
      <Folder Include="Assets\Asset\Menu\DialogItem\ItemDialogLoading" />
      <Folder Include="Assets\Asset\BackGrounds" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\Scripts\Menu\Menu" />
      <Folder Include="Assets\Anim\Atlas" />
      <Folder Include="Assets\Asset\Menu\DialogItem\ItemDiaLog" />
      <Folder Include="Assets\Asset\Menu\DialogItem\ItemDialyLogin" />

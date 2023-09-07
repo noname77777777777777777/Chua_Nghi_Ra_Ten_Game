@@ -32,7 +32,6 @@ public class DailylogingManager : MonoBehaviour
         data.SaveDataToJson();
         DialyReward.SetActive(false);
     }
-
     public void CheckPopUpStatus()
     {
         TimeSpan timeSincelastpopup = DateTime.Now - lastPopupTime;
@@ -41,14 +40,12 @@ public class DailylogingManager : MonoBehaviour
             DialyReward.SetActive(true);
         }
     }
-
     public void ClosePopup()
     {
         lastPopupTime = DateTime.Now;
         PlayerPrefs.SetString("LastPopUpTime",lastPopupTime.Ticks.ToString());
         DialyReward.SetActive(false);
     }
-
     public void LoadDataJsonDaily()
     {
         data.LoadDataJson();
