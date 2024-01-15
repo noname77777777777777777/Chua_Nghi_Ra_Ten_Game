@@ -1,5 +1,5 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "R5CT21LYV5V",
     "m_SelectedPackage": {
         "deviceId": "",
         "name": "",
@@ -7,7 +7,20 @@
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "R5CT21LYV5V",
+            "name": "com.android.settings",
+            "processId": 12478,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT21LYV5V",
+            "name": "com.smulie.simpia",
+            "processId": 15406,
+            "exited": true
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {

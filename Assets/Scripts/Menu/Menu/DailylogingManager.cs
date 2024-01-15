@@ -14,6 +14,7 @@ public class DailylogingManager : MonoBehaviour
     public DataServiceManager data;
     public Inventory inventory ;
     private int value_coin = 0;
+    DateTime dt;
     public  int getCoin()
     {
         return value_coin;
@@ -55,8 +56,9 @@ public class DailylogingManager : MonoBehaviour
     }
     private void Start()
     {
+        Debug.Log(dt);
+        DialyReward.SetActive(true);
         LoadDataJsonDaily();
-       
     }
 
    
