@@ -28,7 +28,7 @@ namespace EasyUI.PickerWheelUI {
       [Space]
       [Header ("Picker wheel settings :")]
       [Range (1, 20)] public int spinDuration = 8 ;
-      [SerializeField] [Range (.2f, 2f)] private float wheelSize = 1f ;
+      [SerializeField] [Range (.10f, 10f)] private float wheelSize = 1f ;
 
       [Space]
       [Header ("Picker wheel pieces :")]
@@ -91,8 +91,11 @@ namespace EasyUI.PickerWheelUI {
          rt.SetSizeWithCurrentAnchors (RectTransform.Axis.Vertical, pieceHeight) ;
 
          for (int i = 0; i < wheelPieces.Length; i++)
+         {
+            //wheelPieces[i].Label = null;
+            //wheelPieces[i].Amount = 0;
             DrawPiece (i) ;
-
+         }
          Destroy (wheelPiecePrefab) ;
       }
 
@@ -101,9 +104,8 @@ namespace EasyUI.PickerWheelUI {
          Transform pieceTrns = InstantiatePiece ().transform.GetChild (0) ;
 
          pieceTrns.GetChild (0).GetComponent <Image> ().sprite = piece.Icon ;
-         pieceTrns.GetChild (1).GetComponent <Text> ().text = piece.Label ;
-         pieceTrns.GetChild (2).GetComponent <Text> ().text = piece.Amount.ToString () ;
-
+         pieceTrns.GetChild (1).GetComponent <Text> ().text = "" ;
+         pieceTrns.GetChild (2).GetComponent <Text> ().text = "" ;
          //Line
          Transform lineTrns = Instantiate (linePrefab, linesParent.position, Quaternion.identity, linesParent).transform ;
          lineTrns.RotateAround (wheelPiecesParent.position, Vector3.back, (pieceAngle * index) + halfPieceAngle) ;
@@ -197,7 +199,8 @@ namespace EasyUI.PickerWheelUI {
       private void CalculateWeightsAndIndices () {
          for (int i = 0; i < wheelPieces.Length; i++) {
             WheelPiece piece = wheelPieces [ i ] ;
-
+            
+            
             //add weights:
             accumulatedWeight += piece.Chance ;
             piece._weight = accumulatedWeight ;
